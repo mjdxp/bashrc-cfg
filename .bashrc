@@ -117,4 +117,9 @@ if ! shopt -oq posix; then
 fi
 
 pfetch
+bytesfree=$(awk '/^Mem/ {print $3}' <(free -b))
+totalkb=$(grep MemTotal /proc/meminfo | awk '{print $2}')
+echo -e "\e[38;5;7m **** $SHELL ****"
+echo "$totalkb""k ram system  $bytesfree bytes free"
+echo "ready."
 eval "$(starship init bash)"
