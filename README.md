@@ -1,2 +1,2 @@
-# bashrc-cfg
-I'm too lazy to upload this at the moment.
+# bashrc-config
+My config of Bash. Copy it to the home directory.
