@@ -91,6 +91,8 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+alias c='cd /mnt/c'
+alias win='cd /mnt/c/Users/mjd'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -123,3 +125,4 @@ echo -e "\e[38;5;7m **** $SHELL ****"
 echo "$totalkb""k ram system  $bytesfree bytes free"
 echo "ready."
 eval "$(starship init bash)"
+cd
