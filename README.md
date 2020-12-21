@@ -1,5 +1,5 @@
 # bashrc-config
-My config of Bash. Copy it to the home directory.
+My config of Bash. Copy it to the home directory. (`~/.bashrc`)
 
 Requires pfetch and exa.
 
